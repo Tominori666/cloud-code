@@ -3,5 +3,13 @@
     "defaultMode": "default"
   },
   "env": {},
-  "hooks": {}
+  "hooks": {},
+  "mcpServers": {
+    "claude-peers": {
+      "command": "C:/Users/TonyQ/.bun/bin/bun.exe",
+      "args": [
+        "C:/Users/TonyQ/claude-peers-mcp/server.ts"
+      ]
+    }
+  }
 }
