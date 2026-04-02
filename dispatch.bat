@@ -1,6 +1,6 @@
 @echo off
 REM 用法: dispatch.bat "你的指令"
-set CLAUDE_CODE_GIT_BASH_PATH=D:\Git\Git\bin\bash.exe
+set CLAUDE_CODE_GIT_BASH_PATH=C:\Program Files\Git\usr\bin\bash.exe
 set ANTHROPIC_BASE_URL=http://127.0.0.1:5678
 set ANTHROPIC_API_KEY=proxy
 set DISABLE_AUTOUPDATER=1

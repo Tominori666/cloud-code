@@ -2,7 +2,7 @@
 echo Starting API Proxy (GLM-4)...
 start "CC-Proxy" cmd /c "python D:\CC\cloud-code\api_proxy.py --provider custom --base-url https://open.bigmodel.cn/api/paas/v4 --api-key %GLM_API_KEY% --model glm-4-plus"
 timeout /t 2 /nobreak >nul
-set CLAUDE_CODE_GIT_BASH_PATH=D:\Git\Git\bin\bash.exe
+set CLAUDE_CODE_GIT_BASH_PATH=C:\Program Files\Git\usr\bin\bash.exe
 set ANTHROPIC_BASE_URL=http://127.0.0.1:5678
 set ANTHROPIC_API_KEY=proxy
 set DISABLE_AUTOUPDATER=1
