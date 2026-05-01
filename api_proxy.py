@@ -31,7 +31,7 @@ PROVIDERS = {
         "base_url": "https://api.deepseek.com/v1",
         "api_key_env": "DEEPSEEK_API_KEY",
         "default_model": "deepseek-chat",
-        "default_key": "[REVOKED-DEEPSEEK-KEY-2026-05-01]",
+        "default_key": "",  # set via DEEPSEEK_API_KEY env var
     },
     "openai": {
         "base_url": "https://api.openai.com/v1",
